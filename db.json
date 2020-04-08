@@ -1,4 +1,5 @@
-columns: [
+{
+  columns": [
   {
     field: "title",
     title: "Title",
@@ -6,9 +7,6 @@ columns: [
     titleAlign: "center",
     columnAlign: "center",
     isEdit: true,
-    formatter: function(rowData, rowIndex, pagingIndex, field) {
-      return `<span class='cell-edit-color'>${rowData[field]}</span>`;
-    },
     isResize: true
   },
   {
@@ -38,9 +36,8 @@ columns: [
     isEdit: true,
     isResize: true
   }
-  ]
-
-Items: [
+  ],
+"items": [
   {
     title: "one",
     tel: "1561987",
@@ -72,3 +69,4 @@ Items: [
     address: "上海市松江区乐都西路867-871号"
   }
 ]
+}
