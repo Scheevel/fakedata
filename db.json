@@ -33,7 +33,7 @@
     {
       "field": "address",
       "title": "Address",
-      "width": 280,
+      "width": 150,
       "titleAlign": "center",
       "columnAlign": "left",
       "isEdit": true,
