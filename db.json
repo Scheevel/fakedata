@@ -1,49 +1,52 @@
 {
-  "columns" : [
+  demo: 
   {
-    "field": "title",
-    "title": "Title",
-    "width": 80,
-    "titleAlign": "center",
-    "columnAlign": "center",
-    "isEdit": true,
-    "formatter": "function(rowData, rowIndex, pagingIndex, field) {return `<span class='cell-edit-color'>${rowData[field]}</span>`}",
-    "isResize": true
-  },
-  {
-    "field": "tel",
-    "title": "Id",
-    "width": 150,
-    "titleAlign": "center",
-    "columnAlign": "center",
-    "isEdit": true,
-    "isResize": true
-  },
-  {
-    "field": "project",
-    "title": "Project",
-    "width": 150,
-    "titleAlign": "center",
-    "columnAlign": "center",
-    "isEdit": true,
-    "isResize": true
-  },
-  {
-    "field": "address",
-    "title": "Address",
-    "width": 280,
-    "titleAlign": "center",
-    "columnAlign": "left",
-    "isEdit": true,
-    "isResize": true
+    "columns" : [
+    {
+      "field": "title",
+      "title": "Title",
+      "width": 80,
+      "titleAlign": "center",
+      "columnAlign": "center",
+      "isEdit": true,
+      "formatter": "",
+      "isResize": true
+    },
+    {
+      "field": "tel",
+      "title": "Id",
+      "width": 150,
+      "titleAlign": "center",
+      "columnAlign": "center",
+      "isEdit": true,
+      "isResize": true
+    },
+    {
+      "field": "project",
+      "title": "Project",
+      "width": 150,
+      "titleAlign": "center",
+      "columnAlign": "center",
+      "isEdit": true,
+      "isResize": true
+    },
+    {
+      "field": "address",
+      "title": "Address",
+      "width": 280,
+      "titleAlign": "center",
+      "columnAlign": "left",
+      "isEdit": true,
+      "isResize": true
+    }
+    ],
+  "items": [
+    {
+      "title": "one",
+      "tel": "1561987",
+      "project": "proj A",
+      "address": "123 Street"
+    }
+    ]
   }
-  ],
-"items": [
-  {
-    "title": "one",
-    "tel": "1561987",
-    "project": "proj A",
-    "address": "123 Street"
-  }
-  ]
 }
