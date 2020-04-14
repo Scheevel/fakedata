@@ -1,6 +1,5 @@
-{
-  "demo": [
-    "columns" : [
+{ 
+  "columns" : [
     {
       "field": "title",
       "title": "Title",
@@ -46,6 +45,5 @@
       "project": "proj A",
       "address": "123 Street"
     }
-    ]
   ]
 }
